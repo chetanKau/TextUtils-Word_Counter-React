@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    align-items: center;
+    background-color: rgb(196, 199, 199);
+    /* border: 1px solid red; */
+    justify-content: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem; 
+    color: aliceblue;
+    font-weight: 80px;
+}
+
+.navbar .inner_sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    /* border: 1px solid greenyellow; */
+    height: 100%;
+    margin-left: 2rem;
+}
+.left_sec{
+    display: flex;
+    gap: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.left_sec > span {
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.form-check-input{
+    cursor: pointer;
+}

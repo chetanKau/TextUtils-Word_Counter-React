@@ -1,0 +1,43 @@
+/* .App {
+  text-align: center;
+}
+
+.dark_mode{
+  background-color: black;
+  color: white;
+} */
+
+
+/* App.css */
+
+/* Common styles for both light and dark mode */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.app {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.toggle {
+  margin-top: 20px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .app {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode .toggle-label {
+  color: #fff;
+}
